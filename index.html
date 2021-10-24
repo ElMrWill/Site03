@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="shortcut icon" href="src/images/Favico.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>WF</title>
+</head>
+<body>
+
+   <header class="header">
+       <div class="container">
+               <h1 class="header__logo">
+                    <a href="/" aria-label="Logo da WF.">
+                        <img src="src/images/LogoWF_PB.png" alt="WF Software" width="100px">
+                    </a>
+               </h1>
+               <div class="header__menu">
+                   <nav class="desktop-menu">
+                       <ul>
+                           <li><a href="#" class="desktop-menu__link active">Início</a></li>
+                           <li><a href="#" class="desktop-menu__link">Link 1</a></li>
+                           <li><a href="#" class="desktop-menu__link">Link 2</a></li>
+                           <li><a href="#" class="desktop-menu__link">Link 3</a></li>
+                           <li><a href="#" class="desktop-menu__link">Link 4</a></li>
+                       </ul>
+                   </nav>
+                   <h1 class="sr_only">Primeiro</h1>
+                       <button class="button mobile-nav-close"></button>
+                   <button class="button" id="MobileMenuBTN" aria-label="Toggle Menu" aria-expanded="false"
+                   aria-controls="mobileMenu">
+                          <img src="src/images/menu.svg" alt="Menu Móvel" width="16">
+                      </button>
+               </div>
+       </div>
+   </header>
+
+       <!--NAVEGAÇÃO DESKTOP-->
+       <nav class="mobile-menu" id="mobileMenu">
+        <button class="button mobile-nav-close"></button>
+        <ul>
+            <li><a href="#" class="desktop-menu__link active">Início</a></li>
+            <li><a href="#" class="desktop-menu__link">Link 1</a></li>
+            <li><a href="#" class="desktop-menu__link">Link 2</a></li>
+            <li><a href="#" class="desktop-menu__link">Link 3</a></li>
+            <li><a href="#" class="desktop-menu__link">Link 4</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="hero">
+            <div class="hero__wrapper">
+                <div class="hero__wrapper-Left">
+                    <h1>
+                        O melhor template para websites comerciais e landing pages!
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do
+                        eiusmod tempor incididunt ui labora et dolor magna alíqua.
+                    </p>
+                    <div class="saiba">Saiba mais</div>
+                    <div class="semnome"></div>
+                </div>
+                <div class="hero__wrapper-Right">
+                    <img src="src/images/principal.png" alt="Primeira imagem" width="250px">
+                </div>
+            </div>
+        </section>
+        <section class="ferramentas pt-1">
+                <div class="ferramentas__title">
+                    <h1>Ferramentas <span>TOP</span></h1>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <h1>
+                            Lorem impsun nonato
+                        </h1>
+                        <p>
+                            Hasellus sagittis bibendum dui, ac facilisis sem fringilla sed. Nulla consectetur, magna sed.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h1>
+                            Lorem impsun nonato
+                        </h1>
+                        <p>
+                            Hasellus sagittis bibendum dui, ac facilisis sem fringilla sed. Nulla consectetur, magna sed.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h1>
+                            Lorem impsun nonato
+                        </h1>
+                        <p>
+                            Hasellus sagittis bibendum dui, ac facilisis sem fringilla sed. Nulla consectetur, magna sed.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section class="funfacts">
+                <div class="funfacts__leftPart">
+                    <img src="src/images/2.png" alt="" width="250px">
+                </div>
+                <div class="funfacts__rightPart">
+                    <div class="funfacts__title">
+                        <h1>Fatos <span>Interessantes!</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar elementum felis, vitae elementum quam tristique ac. Suspendisse vestibulum massa ut augue lacinia, at tincidunt sapien venenatis. Nunc aliquam leo nibh, vitae venenatis diam pharetra quis. Donec eu libero nec libero tristique efficitur. Maecenas lorem lorem, volutpat et ullamcorper a, semper ac nisl.</p>
+                    </div>
+                    <div class="funfacts__blocos">
+                        <div class="funfacts__bloco1">
+                            <h1 class="numero">4000</h1>
+                            <p class="texto">lorens</p>
+                        </div>
+                        <div class="funfacts__bloco2">
+                            <h1 class="numero">200</h1>
+                            <p class="texto">impsuns</p>
+                        </div>
+                        <div class="funfacts__bloco3">
+                            <h1 class="numero">500</h1>
+                            <p class="texto">dolor</p>
+                        </div>
+                        <div class="funfacts__bloco4">
+                            <h1 class="numero">150</h1>
+                            <p class="texto">amets</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="contato">
+                <div class="contato__title">
+                    <h1>Entre em <span>contato</span></h1>
+                </div>
+                <div class="contato__centro">
+                <div class="contato__left">
+                    <h2>Para dúvidas e outros:</h2>
+                    <i class="fas fa-thumbtack"></i>
+                    <span>Endereço</span>
+                    <p>Rua tal, 123 | Imaginação - Mogi Mirim / SP.</p>
+                    <i class="fas fa-thumbtack"></i>
+                    <span>E-mail</span>
+                    <p>contato@seuemail.com.br</p>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Telefone</span>
+                    <p>(19) 9-1234-5678</p>
+                </div>
+                <div class="contato__right">
+                    <input type="text" name="Nome" id="nome" value="Seu Nome"/>
+                    <input type="text" name="Sobrenome" id="sobrenome" value="Seu Sobrenome"/>
+                    <input type="text" name="Assunto" id="assunto" value="Assunto"/>
+                    <textarea name="comment" form="usrform" id="texto">Fale o que você quer falar</textarea>
+                    <div class="contato__button_enviar">
+                        ENVIAR
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer pt-1">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Sobre nós</h3>
+                <ul class="footer-col__list">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar elementum felis, vitae elementum quam tristique ac.
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Suporte</h3>
+                <ul class="footer-col__list">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Fique conosco</h3>
+                <ul class="footer-col__list">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <img src="src/images/Logotop.png" alt="WF" width="125px">
+                </ul>
+            </div>
+        </div>
+        <div class="container tex-center footer__copy" >
+            <p class="pt-1">&copy; 2021 | Criado por <a href="#">WF</a></p>
+        </div>
+    </footer>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
